@@ -21,7 +21,7 @@ Add events.
 ### Description
 In case if market was whitelisted, earned rewards and then [became blacklisted](https://github.com/code-423n4/2024-01-canto/blob/main/src/LendingLedger.sol#L137-L143), then it will be not possible for users to claim already earned rewards anymore, because `update_market` function revert for non whitelisted markets.
 ### Recommendation
-Give ability for users to claim already accrued rewards for blacklisted market. Maybe you should remove `require` in the `update_market` function. As i guess that blacklisted market will have 0 weight in gauge.
+Give ability for users to claim already accrued rewards for blacklisted market. Maybe you should remove `require` in the `update_market` function. As i guess that blacklisted market will have 0 weight in gauge. Then make sure `sync_ledger` checks that `msg.sender` is whitelisted market.
 
 ## QA-05 Some rewards will be lost in case if market will be blacklisted
 ### Description
