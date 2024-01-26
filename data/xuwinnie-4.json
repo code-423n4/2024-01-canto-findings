@@ -1,0 +1,8 @@
+{
+  "contest": 326,
+  "handle": "xuwinnie",
+  "risk": "2",
+  "title": "Attacker can call update_market frequently to halt the increase of secRewardsPerShare",
+  "issueId": 4,
+  "issueUrl": "https://github.com/code-423n4/2024-01-canto-findings/issues/4"
+}
