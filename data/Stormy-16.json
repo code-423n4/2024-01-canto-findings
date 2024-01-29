@@ -1,0 +1,8 @@
+{
+  "contest": 326,
+  "handle": "Stormy",
+  "risk": "3",
+  "title": "Stormy - Unlisting an existing market which was previously used in the system will also DOS the users access to further withdraw their funds from the lending market.",
+  "issueId": 16,
+  "issueUrl": "https://github.com/code-423n4/2024-01-canto-findings/issues/16"
+}
