@@ -1,7 +1,7 @@
 ---
 sponsor: "Canto"
 slug: "2024-01-canto"
-date: "YYYY-MM-DD"  # the date this report is published to the C4 website
+date: "2024-02-07"
 title: "Canto Invitational"
 findings: "https://github.com/code-423n4/2024-01-canto-findings/issues"
 contest: 326
